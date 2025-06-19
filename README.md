@@ -1,5 +1,6 @@
 Hesap Makinesi
-Bu proje, HTML, CSS ve Vanilla JavaScript kullanarak sıfırdan bir hesap makinesi uygulaması geliştirilmiştir. Proje, temel frontend becerilerini pekiştirmek ve pratik yapmak amacıyla oluşturulmuştur.
+Bu proje, HTML, CSS ve Vanilla JavaScript kullanarak sıfırdan bir hesap makinesi uygulaması geliştirilmiştir. 
+Proje, temel frontend becerilerini pekiştirmek ve pratik yapmak amacıyla oluşturulmuştur.
 
 Özellikler
 Hesaplama: Kullanıcı, sayılar ve matematiksel işlemlerle hesaplama yapabilir.
@@ -41,7 +42,8 @@ Repoyu forkladıktan sonra, kendi bilgisayarınızda değişiklik yapın.
 Değişikliklerinizi commit ettikten sonra pull request oluşturun.
 --------------------------------------------------------------------------
 Calculator
-This project is a simple calculator application built from scratch using HTML, CSS, and Vanilla JavaScript. The project was created to reinforce basic frontend skills and to gain practical experience.
+This project is a simple calculator application built from scratch using HTML, CSS, and Vanilla JavaScript. 
+The project was created to reinforce basic frontend skills and to gain practical experience.
 
 Features
 Calculation: The user can perform calculations using numbers and mathematical operators.
