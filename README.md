@@ -27,10 +27,13 @@ https://hesap-makinesi-ivory.vercel.app/
 
 Projeyi Çalıştırma
 Bu repoyu klonlayın:  git clone https://github.com/osmanncan/hesap-makinesi.git
+
 Proje klasörüne gidin: cd hesap-makinesi
+
 Projenin HTML dosyasını tarayıcınızda açın: index.html dosyasını çift tıklayarak veya bir tarayıcıda açarak çalıştırabilirsiniz.
 
 Katkı
+
 Bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
 
 Repoyu forkladıktan sonra, kendi bilgisayarınızda değişiklik yapın.
