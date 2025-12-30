@@ -1,88 +1,143 @@
-Hesap Makinesi
-Bu proje, HTML, CSS ve Vanilla JavaScript kullanarak sıfırdan bir hesap makinesi uygulaması geliştirilmiştir. 
-Proje, temel frontend becerilerini pekiştirmek ve pratik yapmak amacıyla oluşturulmuştur.
+# 🧮 Hesap Makinesi
 
-Özellikler
-Hesaplama: Kullanıcı, sayılar ve matematiksel işlemlerle hesaplama yapabilir.
+Modern ve kullanıcı dostu arayüzü ile sıfırdan geliştirilmiş bir web hesap makinesi uygulaması.
 
-Silme (DEL): Son girilen karakter silinebilir.
+## 🌐 Demo
 
-Temizleme (C): Hesap makinesi sıfırlanabilir.
+Canlı demoya buradan erişebilirsiniz: [hesap-makinesi-ivory.vercel.app](https://hesap-makinesi-ivory.vercel.app/)
 
-Eşittir Butonu (=): Hesaplama sonucu gösterilir.
+## 📝 Açıklama
 
-Sade ve Modern Tasarım: Basit bir grid yapısı kullanılarak işlevsellik ve tasarım dengesi sağlanmıştır.
+Bu proje, HTML, CSS ve Vanilla JavaScript kullanarak sıfırdan bir hesap makinesi uygulaması geliştirilmiştir. Proje, temel frontend becerilerini pekiştirmek ve pratik yapmak amacıyla oluşturulmuştur.
 
-Kullanılan Teknolojiler
-HTML: Uygulamanın yapısal tasarımı için kullanıldı.
+## ✨ Özellikler
 
-CSS: Uygulamanın stil ve tasarımını oluşturmak için kullanıldı.
+- 🧮 **Hesaplama** - Sayılar ve matematiksel işlemlerle hesaplama yapabilme
+- 🗑️ **Silme (DEL)** - Son girilen karakteri silme
+- 🔄 **Temizleme (C)** - Hesap makinesini sıfırlama
+- ➕ **İşlemler** - Toplama, çıkartma, çarpma, bölme ve daha fazlası
+- 🎨 **Sade ve Modern Tasarım** - Grid yapısıyla işlevsellik ve tasarım dengesi
+- ⚡ **Hızlı ve Responsive** - Tüm cihazlarda sorunsuz çalışma
 
-Vanilla JavaScript: Uygulamanın etkileşimli işlevlerini (hesaplama, silme, temizleme) oluşturmak için kullanıldı.
+## 🛠️ Teknolojiler
 
-eval(): Kullanıcının girdiği matematiksel ifadeyi işlemek için kullanıldı.
+- **HTML5** - Uygulamanın yapısal tasarımı
+- **CSS3** - Stil ve responsive tasarım
+- **JavaScript (Vanilla)** - Etkileşimli işlevler (hesaplama, silme, temizleme)
+- **eval()** - Matematiksel ifadelerin işlenmesi
+- **Vercel** - Hosting ve deployment
 
-Proje Görünümü
-Canlı demo için aşağıdaki linki kullanabilirsiniz:
-https://hesap-makinesi-ivory.vercel.app/
+## 📦 Proje Yapısı
 
-Projeyi Çalıştırma
-Bu repoyu klonlayın:  git clone https://github.com/osmanncan/hesap-makinesi.git
+```
+HesapMakinesi/
+├── src/              # Kaynak dosyaları
+│   ├── index.html   # Ana HTML dosyası
+│   ├── style.css    # Stil dosyası
+│   └── script.js    # Hesap makinesi mantığı
+├── index.html       # Root HTML dosyası
+└── README.md        # Bu dosya
+```
 
-Proje klasörüne gidin: cd hesap-makinesi
+## 🚀 Kurulum ve Çalıştırma
 
-Projenin HTML dosyasını tarayıcınızda açın: index.html dosyasını çift tıklayarak veya bir tarayıcıda açarak çalıştırabilirsiniz.
+### Yerel Olarak Çalıştırma
 
-Katkı
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/osmanncan/HesapMakinesi.git
+cd HesapMakinesi
+```
 
-Bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+2. Projeyi tarayıcıda açın:
+   - `index.html` dosyasına çift tıklayın veya
+   - Herhangi bir web sunucusu aracılığıyla çalıştırın:
+   ```bash
+   python -m http.server
+   ```
 
-Repoyu forkladıktan sonra, kendi bilgisayarınızda değişiklik yapın.
+3. Hesaplama yapın! 🧮
 
-Değişikliklerinizi commit ettikten sonra pull request oluşturun.
---------------------------------------------------------------------------
-Calculator
-This project is a simple calculator application built from scratch using HTML, CSS, and Vanilla JavaScript. 
-The project was created to reinforce basic frontend skills and to gain practical experience.
+## 📖 Nasıl Kullanılır?
 
-Features
-Calculation: The user can perform calculations using numbers and mathematical operators.
+1. **Sayı Girin** - Tuşları tıklayarak sayıları girin
+2. **İşlem Seçin** - (+, -, ×, ÷ vb.) bir işlem seçin
+3. **Eşittir Tuşu** - (=) tuşuna basarak sonucu görün
+4. **Temizle** - (C) tuşu ile hesap makinesini sıfırlayın
+5. **Sil** - (DEL) tuşu ile son karakteri silin
 
-Delete (DEL): The last entered character can be deleted.
+**Desteklenen İşlemler:**
+- ➕ Toplama
+- ➖ Çıkartma
+- ✖️ Çarpma
+- ➗ Bölme
+- 🔢 Ondalık sayılar
+- ⚙️ Ve daha fazlası!
 
-Clear (C): The calculator can be reset.
+## 💡 Geliştirme ve Kişiselleştirme
 
-Equals Button (=): Displays the result of the calculation.
+Hesap makinesini özelleştirebilirsiniz:
 
-Simple and Modern Design: A basic grid layout was used to balance functionality and design.
+```javascript
+// script.js dosyasında bulunan hesaplama fonksiyonları değiştirilebilir
+const calculate = () => {
+  // Özel mantık ekleyebilirsiniz
+};
+```
 
-Technologies Used
-HTML: Used for the structural layout of the application.
+- `style.css` dosyasında renkleri ve tasarımı değiştirebilirsiniz
+- `script.js` dosyasında hesaplama mantığını geliştirebilirsiniz
+- Yeni butonlar ve işlemler ekleyebilirsiniz
 
-CSS: Used for styling and design of the application.
+## 🎓 Öğrenme Kaynakları
 
-Vanilla JavaScript: Used to create interactive features (calculation, delete, clear).
+Bu proje aşağıdaki konuları öğrenmek için harika bir başlangıçtır:
 
-eval(): Used to process the mathematical expressions entered by the user.
+- DOM manipülasyonu
+- Event listeners
+- String ve Number işlemleri
+- eval() fonksiyonu
+- CSS Grid Layout
+- Responsive Web Design
 
-Project Demo
-You can check out the live demo here:
-https://hesap-makinesi-ivory.vercel.app/
+## 📄 Lisans
 
-Running the Project
+Bu proje açık kaynaktır. İsteyen herkes kullanabilir, değiştirebilir ve geliştirebilir.
 
-Clone this repository: git clone https://github.com/osmanncan/hesap-makinesi.git
+## 👤 Geliştirici
 
-Navigate to the project folder: cd hesap-makinesi
+**Osman Can**
+- GitHub: [@osmanncan](https://github.com/osmanncan)
+- Repo: [HesapMakinesi](https://github.com/osmanncan/HesapMakinesi)
 
-Open the HTML file in your browser: Double-click the index.html file or open it in any browser.
+## 🤝 Katkıda Bulunun
 
-Contributing
-If you'd like to contribute to this project, follow these steps:
+Bu projeyi iyileştirmek isterseniz:
 
-Fork the repository to your own account.
+1. Fork yapın
+2. Feature branch'i oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`)
+4. Branch'i push edin (`git push origin feature/AmazingFeature`)
+5. Pull Request açın
 
-Make changes on your local machine.
+### Katkı Önerileri
 
-Commit your changes and create a pull request.
+- 🎨 UI/UX iyileştirmeleri
+- 🔧 Yeni matematiksel işlemler
+- 🐛 Hata düzeltmeleri
+- 📱 Mobil optimizasyonu
+- ♿ Erişilebilirlik (Accessibility) geliştirilmesi
+
+## 📞 İletişim
+
+Sorularınız veya önerileriniz için lütfen bir Issue açın.
+
+## 🎉 Teşekkürler
+
+Bu projeyi ziyaret ettiğiniz için teşekkürler! Beğendiyseniz ⭐ yıldız vermeyi unutmayın!
+
+---
+
+**Son Güncelleme:** Aralık 2025
+**Status:** 🟢 Aktif Geliştirme
 
